@@ -47,7 +47,7 @@ bot.addListener('message', function (from, to, message) {
     //console.log('%s => %s: %s', from, to, message);
 
     //auto start a timer for user
-    if(config.autoTrackNicks.indexOf(from) > -1){
+    if(setup.config.autoTrackNicks.indexOf(from) > -1){
       if(!timers[from]){
         console.log('starting timer for ' + from);
         bot.say(to, from + ' work timer auto-started... ');
