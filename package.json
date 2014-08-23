@@ -1,0 +1,29 @@
+{
+  "name": "time-bot",
+  "version": "0.0.0",
+  "description": "Simple IRC bot to track hours worked",
+  "main": "bot.js",
+  "dependencies": {
+    "irc": "~0.3.7",
+    "moment": "~2.8.2",
+    "mongoose": "~3.8.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbouwman/time-bot"
+  },
+  "keywords": [
+    "irc",
+    "node"
+  ],
+  "author": "dbouwman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbouwman/time-bot/issues"
+  },
+  "homepage": "https://github.com/dbouwman/time-bot"
+}
