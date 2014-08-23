@@ -69,7 +69,7 @@ bot.addListener('message', function (from, to, message) {
           }
       }
 
-      if ( message.match(/timer-end/i) ) {
+      if ( message.match(/timer-stop/i) ) {
           timers[from].stop();
           //save it
           timers[from].save(function(err,obj){
